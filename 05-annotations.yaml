@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: annotations
+  labels:
+    course: k8
+  annotations:
+    kubernetes.io/created-by: 'rahul'
+    jenkins.build.url: 'https://terraform.io'
+spec:
+  containers:
+  - name: nginx
+    image: nginx
