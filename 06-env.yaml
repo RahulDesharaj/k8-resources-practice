@@ -3,12 +3,13 @@ kind: Pod
 metadata:
  name: env-test
 spec:
- containers:
+  containers:
   - name: nginx
     image: nginx
-    env: 
-    - name: practice
-        value: kubernetes
-
+    env:
+    - name: course
+      value: 'kubernetes'
+    - name: duration
+      value: '20hours'
 
      
