@@ -5,8 +5,10 @@ metadata:
 spec:
  containers:
   - name: nginx
-     image: nginx
-     env: 
-      - name: practice
+    image: nginx
+    env: 
+    - name: practice
         value: kubernetes
+
+
      
