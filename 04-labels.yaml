@@ -1,0 +1,12 @@
+apiVersion: v1 
+kind: pod 
+metadata:
+ name: labels
+ labels:
+  course: practice
+spec:
+ containers: 
+  - name: nginx
+    image: nginx
+
+
